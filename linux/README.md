@@ -5,7 +5,8 @@ Linux Client
 
 Install the following dependencies
 ```
-gtk+-2.0
+gtk+-3.0
+glib-2.0
 libavutil-dev
 libswscale-dev
 libasound2-dev
