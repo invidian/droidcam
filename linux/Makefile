@@ -7,7 +7,7 @@
 # Use at your own risk. See README file for more details.
 
 CC    = -no-pie
-GTK   = `pkg-config --libs --cflags gtk+-2.0 glib-2.0` `pkg-config --libs x11`
+GTK   = `pkg-config --libs --cflags gtk+-3.0 glib-2.0` `pkg-config --libs x11`
 LIBAV = `pkg-config --libs --cflags libswscale libavutil`
 LIBS  =  -lspeex -lasound -lpthread -lm
 JPEG  = `pkg-config --libs --cflags libturbojpeg`
